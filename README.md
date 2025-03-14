@@ -20,13 +20,20 @@ The goal of this project is to create a user-friendly console application that i
 2. **Search Movies by Genre and Year**:  
    - Users can search for movies by specifying a genre and a year. The application returns a list of 10+ movies that match the criteria.
 
-3. **View Popular Search Queries**:  
+3. **Search Movies by Actor**:  
+   - Users can search for movies by entering an actor's name. The application returns a list of 10+ movies featuring the specified actor.
+
+4. **Search Movies by Actor, Genre, and Year**:  
+   - Users can combine search criteria by specifying an actor, genre, and year. The application returns a list of 10+ movies that match all the specified criteria.
+
+5. **View Popular Search Queries**:  
    - Users can view the most popular search queries based on historical data stored in a separate database table.
 
-4. **Query Logging**:  
+6. **Query Logging**:  
    - All search queries are saved in a separate database table for tracking and analysis.
 
 ---
+
 
 ## How It Works
 
@@ -100,45 +107,6 @@ The goal of this project is to create a user-friendly console application that i
 
 ---
 
-## Example Usage
-
-### Search by Keyword
-```
-Enter a keyword: Action
-Search Results:
-1. The Matrix
-2. Die Hard
-3. Terminator 2: Judgment Day
-...
-```
-
-### Search by Genre and Year
-```
-Enter a genre: Comedy
-Enter a year: 2006
-Search Results:
-1. Borat
-2. Little Miss Sunshine
-3. The Devil Wears Prada
-...
-```
-
-### View Popular Queries
-```
-Enter command: popular
-Most Popular Search Queries:
-1. Action (50 searches)
-2. Comedy (35 searches)
-3. 2006 (20 searches)
-...
-```
-
----
-
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to explore the application and provide feedback! For any questions or suggestions, please open an issue or contact me directly.
